@@ -1,6 +1,6 @@
 # Norwegian Cruise Line Holdings (norwegian-cruise-line)
 
-A global cruise company operating three premium brands including Norwegian Cruise Line, Oceania Cruises, and Regent Seven Seas Cruises. Pioneered the freestyle cruising concept offering guests flexibility and choice across a fleet of 32 ships.
+Norwegian Cruise Line Holdings Ltd. (NYSE: NCLH) is a global cruise company operating three premium brands: Norwegian Cruise Line (pioneer of Freestyle Cruising), Oceania Cruises, and Regent Seven Seas Cruises. The company operates a combined fleet of more than 30 ships sailing to over 700 destinations worldwide. No public developer portal or external API offering has been identified for Norwegian Cruise Line Holdings; travel agent and global distribution system (GDS) integrations are handled through contracted partner programs rather than a self-serve developer API.
 
 **URL:** [https://www.nclhltd.com/](https://www.nclhltd.com/)
 
@@ -8,10 +8,16 @@ A global cruise company operating three premium brands including Norwegian Cruis
 
 ## Tags:
 
- - Cruise Lines, Travel, Hospitality
+ - Cruise Lines, Travel, Hospitality, Leisure, Publicly Traded
+
+## Common Properties
+
+- **Website:** https://www.nclhltd.com/
+- **NorwegianCruiseLine:** https://www.ncl.com/
+- **OceaniaCruises:** https://www.oceaniacruises.com/
+- **RegentSevenSeas:** https://www.rssc.com/
 
 ## Timestamps
 
 - **Created:** 2026-05-05
-- **Modified:** 2026-05-05
-
+- **Modified:** 2026-05-16
