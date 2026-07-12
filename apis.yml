@@ -24,6 +24,8 @@ modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/norwegian-cruise-line-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/norwegian-cruise-line
   - type: LinkedIn
