@@ -10,6 +10,17 @@ description: >-
   agent and global distribution system (GDS) integrations are handled
   through contracted partner programs rather than a self-serve developer API.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
