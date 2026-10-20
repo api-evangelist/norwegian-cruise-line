@@ -1,5 +1,7 @@
 aid: norwegian-cruise-line
+
 name: Norwegian Cruise Line Holdings
+
 description: >-
   Norwegian Cruise Line Holdings Ltd. (NYSE: NCLH) is a global cruise company
   operating three premium brands: Norwegian Cruise Line (pioneer of Freestyle
@@ -9,7 +11,9 @@ description: >-
   offering has been identified for Norwegian Cruise Line Holdings; travel
   agent and global distribution system (GDS) integrations are handled
   through contracted partner programs rather than a self-serve developer API.
+
 type: Index
+
 deliveryModel:
   model: unknown
   open_source: false
@@ -21,6 +25,7 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: unknown
   onboarding: approval
@@ -32,20 +37,32 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/norwegian-cruise-line.png
+
 tags:
   - Cruise Lines
   - Travel
   - Hospitality
   - Leisure
   - Publicly Traded
+
 url: >-
   https://raw.githubusercontent.com/api-evangelist/norwegian-cruise-line/refs/heads/main/apis.yml
+
 created: '2026-05-05'
+
 modified: '2026-10-06'
+
 specificationVersion: '0.23'
-apis: []
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+
 common:
+  - type: Hosts
+    url: hosts/norwegian-cruise-line-hosts.yml
   - url: https://www.nclhltd.com/news-media/press-releases/rss
     type: BlogRSS
   - type: DomainSecurity
@@ -62,6 +79,27 @@ common:
     url: https://www.oceaniacruises.com/
   - type: RegentSevenSeas
     url: https://www.rssc.com/
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+  - type: PrivacyPolicy
+    url: https://www.nclhltd.com/privacy-policy
+  - type: TermsOfService
+    url: https://www.nclhltd.com/legal-notice
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: NCLH's corporate site and brand sites (ncl.com, oceaniacruises.com, rssc.com) publish no developer portal, and api.* hosts on all four domains returned no OpenAPI, GraphQL, MCP or agent card; its only GitHub repo is veracode-archive.
+  evidence:
+    - url: https://www.nclhltd.com/
+      status: 200
+    - url: https://www.ncl.com/travel-agents
+      status: 404
+    - url: https://github.com/norwegian-cruise-line
+      status: 200
+  checked: '2026-10-20'
+x-enrichment:
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v5

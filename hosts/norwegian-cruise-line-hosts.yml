@@ -1,0 +1,113 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 10
+  own: 2
+  other_domain: 6
+  platform: 2
+  roles:
+  - api
+  - other
+  - source
+  - website
+hosts:
+- host: api.ncl.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: ncl.com
+  role: api
+  relation: other-domain
+- host: api.nclhltd.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: nclhltd.com
+  role: api
+  relation: own
+- host: api.oceaniacruises.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: oceaniacruises.com
+  role: api
+  relation: other-domain
+- host: api.rssc.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: rssc.com
+  role: api
+  relation: other-domain
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: www.linkedin.com
+  found_by:
+  - pointer
+  types:
+  - LinkedIn
+  serves: []
+  registrable_domain: linkedin.com
+  role: other
+  relation: platform
+- host: www.ncl.com
+  found_by:
+  - pointer
+  - probed
+  - well-known
+  types:
+  - NorwegianCruiseLine
+  serves: []
+  registrable_domain: ncl.com
+  role: other
+  relation: other-domain
+- host: www.nclhltd.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - BlogRSS
+  - Website
+  - PrivacyPolicy
+  - TermsOfService
+  serves: []
+  registrable_domain: nclhltd.com
+  role: website
+  relation: own
+- host: www.oceaniacruises.com
+  found_by:
+  - pointer
+  - probed
+  - well-known
+  types:
+  - OceaniaCruises
+  serves: []
+  registrable_domain: oceaniacruises.com
+  role: other
+  relation: other-domain
+- host: www.rssc.com
+  found_by:
+  - pointer
+  - probed
+  - well-known
+  types:
+  - RegentSevenSeas
+  serves: []
+  registrable_domain: rssc.com
+  role: other
+  relation: other-domain
